@@ -1,0 +1,30 @@
+{
+  "name": "letsbet-api",
+  "version": "1.0.0",
+  "description": "Letsbet API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/letsbet/letsbet-api.git"
+  },
+  "keywords": [
+    "Letsbet",
+    "API"
+  ],
+  "author": "letsbet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/letsbet/letsbet-api/issues"
+  },
+  "homepage": "https://github.com/letsbet/letsbet-api#readme",
+  "dependencies": {
+    "cron": "^1.3.0",
+    "mysql": "^2.15.0",
+    "restify": "^7.1.1",
+    "tiny-json-http": "^7.0.0"
+  }
+}
